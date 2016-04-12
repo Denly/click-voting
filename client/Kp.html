@@ -1,0 +1,53 @@
+<head>
+  <title>Kp</title>
+</head>
+
+<body>
+
+  {{> field}}
+  {{> hello}}
+  {{> animation}}
+  {{> foot}}
+</body>
+
+<template name = 'field'>
+<audio autoplay='autoplay' loop='loop'>
+  <source src="https://dl.dropboxusercontent.com/u/47631918/WebRes/FF_V.mp3" type="audio/mpeg">
+</audio>
+
+<div> <img id='vs' class="vs" src="KvsL.png">
+<img class="vs vsfoot"  src="foot.png">
+</div>
+	<h2 class="Nk">科P：{{NKpowerVot}} <span style="font-size:16px"> Click</span></h2>
+	<h2 class="Nl">勝丼：{{NLpowerVot}} <span style="font-size:16px"> Click</span></h2>
+</template>
+
+<template name="hello">
+  <h1>Click Fight</h1>
+  <!--
+  沒對應的template會空白
+  <input class="Kbtn" type="button" value="Kbtn" />
+  <input class="Lbtn" type="button" value="Lbtn" />
+-->
+  <div class="button Kbtn"><div class="outer"><div class="height"><div class="inner">科のPower</div></div></div></div>
+
+  <div class="button Lbtn"><div class="outer"><div class="height"><div class="inner">連のPower</div></div></div></div>
+</template>
+
+<template name = 'animation'>
+<div id='anima'>
+	<div class="hole"></div>
+</div>
+	
+</template>
+
+<template name = 'foot'>
+
+
+
+<div class="foot">
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fclickfight.meteor.com%2F&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
+	<div class="by"> <p>Juby-Lab Co. by Denly Shih</p></div>
+</div>
+	
+</template>
